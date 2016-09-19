@@ -1,5 +1,5 @@
 {
-  "lambda_arn": "arn:aws:lambda:us-west-2:001400858380:function:helloworld", 
-  "app_name": "helloworld", 
+  "lambda_arn": "arn:aws:lambda:us-west-2:001400858380:function:johnstonfamily", 
+  "app_name": "johnstonfamily", 
   "stage": "dev"
 }
