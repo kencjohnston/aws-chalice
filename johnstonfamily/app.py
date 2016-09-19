@@ -1,6 +1,6 @@
 from chalice import Chalice
 
-app = Chalice(app_name='helloworld')
+app = Chalice(app_name='johnstonkids')
 
 PARENTS_TO_KIDS = {
    'kenny':'rowan and everett',
@@ -49,5 +49,5 @@ def parents_of_kids(kid):
 #     # user_id = db.create_user(user_as_json)
 #     return {'user_id': user_id}
 #
-# See the README documentation for more examples.
+# See the README documentation for more exampes.
 #
