@@ -1,4 +1,5 @@
 {
+  "lambda_arn": "arn:aws:lambda:us-west-2:001400858380:function:family", 
   "app_name": "family", 
   "stage": "dev"
 }

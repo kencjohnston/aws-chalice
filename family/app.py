@@ -25,8 +25,12 @@ def index():
     return {'hello': 'world'}
 
 @app.route('/kids')
-def index():
-    return {'kids':'%s' % (', '.join(KIDS_TO_PARENTS.keys()))}
+def kids():
+    return {'kids':", ".join(KIDS_TO_PARENTS.keys())}
+
+@app.route('/parents')
+def parents():
+    return {'parents':", ".join(PARENTS_TO_KIDS.keys())}
 
 @app.route('/kids/{parent}')
 def kids_of_parents(parent):
